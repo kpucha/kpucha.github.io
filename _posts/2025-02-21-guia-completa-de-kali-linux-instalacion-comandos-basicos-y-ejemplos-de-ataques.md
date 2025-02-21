@@ -7,7 +7,7 @@ tags:
 - Hacking
 - Kali
 - Linux
-- "#macOS"
+- macOS
 - Windows
 ---
 
@@ -157,6 +157,7 @@ Para familiarizarte con la terminal de Kali Linux, aquí tienes una tabla con co
 | `apt-get update`  | Actualiza la lista de paquetes disponibles.                         |
 | `apt-get upgrade` | Actualiza los paquetes instalados a sus últimas versiones.          |
 | `ifconfig` o `ip a`| Muestra la configuración de las interfaces de red.                  |
+| `iwconfig`        | Muestra la configuración de las interfaces de red wireless.             |
 | `ping`            | Comprueba la conectividad con otra máquina en la red.               |
 | `nmap`            | Escanea redes para identificar dispositivos y servicios abiertos.   |
 | `netstat`         | Muestra conexiones de red y tablas de enrutamiento.                 |
