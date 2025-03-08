@@ -2,7 +2,7 @@
 title: 'Sweeping con Kali Linux: Barriendo la Red'
 categories:
 - Hacking ético
-- Herramientas
+- Técnicas
 tags:
 - Hacking
 - Kali
