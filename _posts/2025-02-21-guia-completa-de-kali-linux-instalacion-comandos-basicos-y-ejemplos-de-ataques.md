@@ -9,6 +9,7 @@ tags:
 - Linux
 - macOS
 - Windows
+image: "/assets/img/headers/kali.jpg"
 ---
 
 Hola, en este post te ofrezco una guía completa para iniciarte en el hacking ético con Kali Linux. Te explicaré qué es Kali Linux, cuáles son sus ventajas y, lo más importante, cómo instalarlo en diferentes sistemas operativos: Windows (usando WSL2), macOS (a través de VirtualBox) y en una instalación nativa en Linux. Además, encontrarás una hoja de comandos básicos y ejemplos de ataques básicos, todo para que dispongas de una base sólida en ciberseguridad.

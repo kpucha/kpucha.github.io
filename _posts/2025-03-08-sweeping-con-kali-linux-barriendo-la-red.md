@@ -8,6 +8,7 @@ tags:
 - Kali
 - Linux
 - sweeping
+image: "/assets/img/headers/sweeping.jpg"
 ---
 
 En el mundo del hacking ético, el *sweeping* es una técnica fundamental utilizada en la fase de reconocimiento y escaneo de una red. Su objetivo principal es identificar hosts activos, puertos abiertos y servicios disponibles en un rango de direcciones IP.
