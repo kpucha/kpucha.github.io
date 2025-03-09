@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: # the main title
+title: KBlog # the main title
 
 tagline: Blog de Kpucha sobre IA, Automatizaciones y desarrollo # it will display as the subtitle
 
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Arturo Alcalá
-  email: alcala28043@gmail.com # change to your email address
+  email: info@kpucha.dev # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
@@ -61,7 +61,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: kblog # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -75,7 +75,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -147,7 +147,6 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
 
 # The base URL of your site
 baseurl: ""
@@ -228,3 +227,8 @@ jekyll-archives:
 plugins:
   - jekyll-admin
   - jekyll-archives
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate: 10
+paginate_path: "/page/page:num/"
