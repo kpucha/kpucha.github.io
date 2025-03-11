@@ -230,12 +230,14 @@ Spring Data JPA permite crear métodos de consulta simplemente definiendo la fir
 ### 7.1. Ejemplos Básicos
 
 #### Búsquedas por Campo
+
 | Método                         | Descripción                              | Ejemplo de Uso |
 |--------------------------------|------------------------------------------|----------------|
 | `findByNombre(String nombre)`  | Busca por el campo `nombre`.             | `findByNombre(\"Juan\")` |
 | `findByEmail(String email)`    | Busca por el campo `email`.              | `findByEmail(\"juan@mail.com\")` |
 
 #### Búsquedas Combinadas
+
 | Método                                                    | Descripción                             | Ejemplo de Uso |
 |-----------------------------------------------------------|-----------------------------------------|----------------|
 | `findByNombreAndEmail(String nombre, String email)`       | Condición AND: ambos campos deben coincidir.  | `findByNombreAndEmail(\"Juan\", \"juan@mail.com\")` |
