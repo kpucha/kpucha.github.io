@@ -3,9 +3,7 @@ title: AutoNiche AI - Idea Brief
 tags:
 - Inteligencia Artificial
 - Automatización
-- n8n
-- Ollama
-- monetización
+- Monetización
 - AutoNiche AI
 categories:
 - Inteligencia Artificial

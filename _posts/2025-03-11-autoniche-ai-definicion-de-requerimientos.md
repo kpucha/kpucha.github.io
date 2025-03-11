@@ -3,9 +3,7 @@ title: AutoNiche AI - Definición de Requerimientos
 tags:
 - Inteligencia Artificial
 - Automatización
-- n8n
-- monetización
-- Ollama
+- Monetización
 - AutoNiche AI
 categories:
 - Inteligencia Artificial
