@@ -12,7 +12,7 @@ tags:
 - Automatización
 ---
 
-## **1. Arquitectura General**  
+## **1. Arquitectura General** 
 
 El sistema se basará en una arquitectura modular, dividiendo las tareas en diferentes **agentes especializados** que trabajarán de forma coordinada mediante **n8n**.  
 
