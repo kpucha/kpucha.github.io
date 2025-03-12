@@ -3,8 +3,8 @@ title: AutoNiche AI - Arquitectura del Sistema
 image: "/assets/img/headers/autoniche-ai-arquitectura.png"
 mermaid: true
 categories:
-- Inteligencia Artificial
-- Automatización
+- Proyectos
+- AutoNiche AI
 tags:
 - Inteligencia Artificial
 - AutoNiche AI

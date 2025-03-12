@@ -170,6 +170,12 @@ collections:
     output: true
     sort_by: order
 
+show_drafts: true
+
+jekyll_admin:
+  show_drafts: true
+  homepage: "posts"
+
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project

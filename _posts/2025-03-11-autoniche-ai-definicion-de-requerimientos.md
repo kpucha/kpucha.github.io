@@ -6,8 +6,8 @@ tags:
 - Monetización
 - AutoNiche AI
 categories:
-- Inteligencia Artificial
-- Automatización
+- Proyectos
+- AutoNiche AI
 image: "/assets/img/headers/autoniche-ai-requerimientos.png"
 ---
 
