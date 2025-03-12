@@ -180,6 +180,7 @@ gantt
     Monitoreo de Resultados     :2025-06-26, 2025-07-05
     Ajustes en Modelos IA       :2025-07-06, 2025-07-15
     Expansión a Nuevos Nichos   :2025-07-16, 2025-07-30
+		
 ```
 
 ---
