@@ -38,12 +38,12 @@ La planificación del roadmap define las fases clave del desarrollo de **AutoNic
 {: .prompt-tip }
 >  [Ollama]({% post_url 2025-03-02-gestiona-tus-llms-locales-con-ollama-guia-completa-de-instalacion %}) 
 {: .prompt-tip }
-> LM Studio
-{: .prompt-info }
+> [LM Studio]({% post_url 2025-03-13-lm-studio-guia-completa-para-empezar-desde-cero %})
+{: .prompt-tip }
 > Pinokio
 {: .prompt-info }
-> n8n
-{: .prompt-info }
+> [n8n]({% post_url 2025-03-13-n8n-automatizacion-gratis-local %})
+{: .prompt-tip }
 > ChromaDB
 {: .prompt-info }
 > PostgreSQL
