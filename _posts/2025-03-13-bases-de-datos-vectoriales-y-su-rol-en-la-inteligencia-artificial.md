@@ -1,9 +1,9 @@
 ---
 title: Bases de Datos Vectoriales y su Rol en la Inteligencia Artificial
 mermaid: true
-image: /assets/img/headers/bases-de-datos-vectoriales.png
+image: "/assets/img/headers/bases-de-datos-vectoriales.png"
 tags:
-- DB  
+- DB
 - Vectoriales
 - Inteligencia Artificial
 categories:
@@ -67,10 +67,10 @@ Para recuperar la información rápidamente, se utilizan estructuras de datos es
 
 ```mermaid
 graph TD
-  A[Conjunto de vectores]
-  A -->|División espacial| B[Árbol KD-tree]
-  A -->|Hashing espacial| C[Locality Sensitive Hashing (LSH)]
-  A -->|Estructura de grafo| D[Graph-based Indexing (HNSW)]
+  A["Conjunto de vectores"]
+  A -->|"División espacial"| B["Árbol KD-tree"]
+  A -->|"Hashing espacial"| C["Locality Sensitive Hashing (LSH)"]
+  A -->|"Estructura de grafo"| D["Graph-based Indexing (HNSW)"]
 ```
 
 ### 3.2. Búsqueda basada en similitud
