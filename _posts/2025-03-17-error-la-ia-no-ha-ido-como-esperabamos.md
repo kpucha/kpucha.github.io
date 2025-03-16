@@ -6,7 +6,7 @@ categories:
 - Aprendizaje
 tags:
 - Inteligencia Artificial
-- Errores
+- Errores 
 ---
 
 La inteligencia artificial avanza a pasos agigantados, permitiendo innovaciones increíbles. Sin embargo, junto con estos avances surgen distintos tipos de errores que pueden tener consecuencias desde inconvenientes operativos hasta riesgos críticos para la seguridad y la ética. En este post, exploraremos algunos tipos de error, sus peligros y casos que ya han sucedido.
