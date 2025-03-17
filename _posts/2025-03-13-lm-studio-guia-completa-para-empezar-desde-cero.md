@@ -42,27 +42,13 @@ LM Studio es una plataforma que permite ejecutar modelos de lenguaje localmente,
 
 ## 2. Instalación de LM Studio
 
-Puedes instalar LM Studio mediante diferentes métodos, según tu sistema y preferencias. A continuación, se muestra una tabla con las opciones más comunes:
-
-| Método         | Requisitos               | Instrucción de Instalación                                          |
-|----------------|--------------------------|---------------------------------------------------------------------|
-| Instalador     | Windows/Mac/Linux        | Descargar desde la [página oficial](https://lmstudio.example.com) y ejecutar el instalador. |
-| Docker         | Tener Docker instalado   | `docker run -it --rm -p 8080:8080 lmstudio/lmstudio`                  |
+Puedes instalar LM Studio mediante su descargar desde la [página oficial](https://lmstudio.example.com) y ejecutar el instalador. 
 
 ### Instalación vía Instalador
 
 1. **Descarga:** Visita el sitio oficial de LM Studio y descarga el instalador para tu sistema operativo.
 2. **Ejecuta el Instalador:** Sigue las instrucciones del asistente de instalación.
 3. **Lanza LM Studio:** Abre la aplicación y configura tus preferencias iniciales.
-
-### Instalación vía Docker
-
-1. **Instala Docker:** Asegúrate de tener Docker instalado en tu máquina.
-2. **Ejecuta el contenedor:** Abre una terminal y ejecuta:
-   ```bash
-   docker run -it --rm -p 8080:8080 lmstudio/lmstudio
-   ```
-3. **Accede a la interfaz:** Una vez iniciado, abre tu navegador y visita [http://localhost:8080](http://localhost:8080).
 
 ---
 

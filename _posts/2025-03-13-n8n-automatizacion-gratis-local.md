@@ -40,16 +40,8 @@ Existen diferentes métodos para instalar n8n, según tus preferencias y entorno
 
 | Método | Requisitos             | Comando de instalación                                        |
 |--------|------------------------|----------------------------------------------------------------|
-| Docker | Tener Docker instalado | `docker run -it --rm -p 5678:5678 n8nio/n8n`                     |
 | npm    | Tener Node.js instalado| `npm install n8n -g`                                             |
-
-### Instalación vía Docker (recomendado)
-1. **Instala Docker:** Asegúrate de tener Docker instalado en tu sistema.
-2. **Ejecuta n8n:** Abre la terminal y ejecuta:
-   ```bash
-   docker run -it --rm -p 5678:5678 n8nio/n8n
-   ```
-3. **Accede a la interfaz:** Una vez iniciado, abre tu navegador y visita [http://localhost:5678](http://localhost:5678).
+| Docker | Tener Docker instalado | `docker run -it --rm -p 5678:5678 n8nio/n8n`                     |
 
 ### Instalación vía npm
 1. **Instala Node.js:** Descarga e instala Node.js desde su [sitio oficial](https://nodejs.org/).
@@ -58,6 +50,14 @@ Existen diferentes métodos para instalar n8n, según tus preferencias y entorno
    npm install n8n -g
    ```
 3. **Ejecuta n8n:** Simplemente teclea `n8n` en la terminal y accede a [http://localhost:5678](http://localhost:5678).
+
+### Instalación vía Docker 
+1. **Instala Docker:** Asegúrate de tener Docker instalado en tu sistema.
+2. **Ejecuta n8n:** Abre la terminal y ejecuta:
+   ```bash
+   docker run -it --rm -p 5678:5678 n8nio/n8n
+   ```
+3. **Accede a la interfaz:** Una vez iniciado, abre tu navegador y visita [http://localhost:5678](http://localhost:5678).
 
 ---
 
