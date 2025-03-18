@@ -6,7 +6,7 @@ mermaid: true
 tags:
   - Inteligencia Artificial
   - Algoritmos
-  - Aprendizaje profundo
+  - Aprendizaje Profundo
   - CNN
   - RNN
   - GAN
