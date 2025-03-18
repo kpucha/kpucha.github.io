@@ -242,6 +242,6 @@ paginate: 5
 paginate_path: "/page/:num/"
 
 jekyll-minifier:
-  compress_js: true
+  compress_js: false
   uglifier_args:
     harmony: true
