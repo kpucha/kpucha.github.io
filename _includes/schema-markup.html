@@ -1,0 +1,37 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {% if page.layout == "post" %}
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.social.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}{{ site.avatar }}"
+    }
+  },
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }{% if page.image %},"image": "{{ site.url }}{{ site.baseurl }}{{ page.image.path | default: page.image }}"{% endif %}
+  {% else %}
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "description": "{{ site.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.social.name }}"
+  }
+  {% endif %}
+}
+</script>

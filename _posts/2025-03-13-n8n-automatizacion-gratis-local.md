@@ -11,13 +11,13 @@ tags:
 image: "/assets/img/headers/n8n-automatizacion.png"
 ---
 
-n8n es una herramienta de automatización de flujos de trabajo *open source* que te permite conectar aplicaciones y servicios sin tener que escribir casi código. Con n8n puedes crear procesos automatizados (workflows) que integren distintos sistemas, lo que te ayudará a ahorrar tiempo y minimizar errores en tareas repetitivas.
+[n8n](https://n8n.partnerlinks.io/hs9dwwyl9top) es una herramienta de automatización de flujos de trabajo *open source* que te permite conectar aplicaciones y servicios sin tener que escribir casi código. Con [n8n](https://n8n.partnerlinks.io/hs9dwwyl9top) puedes crear procesos automatizados (workflows) que integren distintos sistemas, lo que te ayudará a ahorrar tiempo y minimizar errores en tareas repetitivas.
 
 ---
 
 ## 1. ¿Qué es n8n?
 
-n8n es un motor de automatización que te permite diseñar flujos de trabajo (workflows) conectando nodos. Cada nodo representa una acción (como enviar un correo o hacer una petición HTTP) o un trigger (evento que inicia el workflow). 
+[n8n](https://n8n.partnerlinks.io/hs9dwwyl9top) es un motor de automatización que te permite diseñar flujos de trabajo (workflows) conectando nodos. Cada nodo representa una acción (como enviar un correo o hacer una petición HTTP) o un trigger (evento que inicia el workflow). 
 
 ### Ejemplos de uso
 - **Integración de aplicaciones:** Conecta tu CRM con servicios de email marketing.
@@ -28,15 +28,17 @@ n8n es un motor de automatización que te permite diseñar flujos de trabajo (wo
 
 | Herramienta | Open Source | Personalización | Costo Inicial  |
 |-------------|-------------|-----------------|----------------|
-| **n8n**    | Sí          | Alta            | Gratuito       |
+| **[n8n](https://n8n.partnerlinks.io/hs9dwwyl9top)**    | Sí          | Alta            | Gratuito       |
 | Zapier      | No          | Media           | Planes pagos   |
 | Integromat  | No          | Alta            | Planes pagos   |
+
+[n8n](https://n8n.partnerlinks.io/hs9dwwyl9top) también tiene la posibilidad de adquirir una suscripción de pago para su uso online, pero a continuación veremos como realizar la instalación de forma local para poder tener workflows ilimitados gratis
 
 ---
 
 ## 2. Instalación de n8n
 
-Existen diferentes métodos para instalar n8n, según tus preferencias y entorno de trabajo. A continuación, se muestra una tabla con las opciones más comunes:
+Existen diferentes métodos para instalar [n8n](https://n8n.partnerlinks.io/hs9dwwyl9top), según tus preferencias y entorno de trabajo. A continuación, se muestra una tabla con las opciones más comunes:
 
 | Método | Requisitos             | Comando de instalación                                        |
 |--------|------------------------|----------------------------------------------------------------|
@@ -98,7 +100,7 @@ En este ejemplo crearemos un workflow que reciba una petición a través de un W
 
 ### Ejemplo de JSON del Workflow
 
-Puedes importar el siguiente JSON en n8n (menú *Import Workflow*) para replicar el ejemplo:
+Puedes importar el siguiente JSON en [n8n](https://n8n.partnerlinks.io/hs9dwwyl9top) (menú *Import Workflow*) para replicar el ejemplo:
 
 ```json
 {
