@@ -102,7 +102,7 @@ En este ejemplo crearemos un workflow que reciba una petición a través de un W
 
 Puedes importar el siguiente JSON en [n8n](https://n8n.partnerlinks.io/hs9dwwyl9top) (menú *Import Workflow*) para replicar el ejemplo:
 
-```json
+```
 {
   "nodes": [
     {
@@ -124,7 +124,7 @@ Puedes importar el siguiente JSON en [n8n](https://n8n.partnerlinks.io/hs9dwwyl9
         "url": "https://api.ejemplo.com/sendEmail",
         "jsonParameters": true,
         "options": {},
-        "bodyParametersJson": "={\n  \"email\": {{$json[\"email\"]}},\n  \"message\": \"Recibimos tu solicitud correctamente.\"\n}"
+        "bodyParametersJson": "={\n  \"email\": \{\{$json[\"email\"]}},\n  \"message\": \"Recibimos tu solicitud correctamente.\"\n}"
       },
       "name": "HTTP Request",
       "type": "n8n-nodes-base.httpRequest",
@@ -157,7 +157,7 @@ Puedes importar el siguiente JSON en [n8n](https://n8n.partnerlinks.io/hs9dwwyl9
 
 1. **Activar el Workflow:** Guarda y activa el workflow en n8n.
 2. **Realizar una prueba:** Envía una petición POST a `http://localhost:5678/webhook-test` con un cuerpo JSON similar a:
-   ```json
+   ```
    {
      "email": "usuario@ejemplo.com"
    }
@@ -178,7 +178,7 @@ Aunque este tutorial está dirigido a principiantes, n8n también permite integr
    - URL: `https://api.openai.com/v1/engines/davinci-codex/completions`
    - Headers: Incluye el API Key en `Authorization: Bearer TU_API_KEY`
    - Body (JSON):
-     ```json
+     ```
      {
        "prompt": "Escribe un resumen sobre n8n.",
        "max_tokens": 50
@@ -195,7 +195,7 @@ Aunque este tutorial está dirigido a principiantes, n8n también permite integr
 - **Utiliza el panel de ejecución:** n8n muestra un historial detallado de cada ejecución, lo que facilita identificar en qué paso ocurre algún error.
 - **Prueba cada nodo por separado:** Antes de conectar todos los nodos, verifica que cada uno funcione de manera independiente.
 - **Manejo de errores:** Configura nodos *Error Trigger* para gestionar errores y notificarte si algo falla en el workflow.
-- **Valida expresiones:** Asegúrate de que las expresiones (por ejemplo, `{{$json["email"]}}`) se resuelvan correctamente para evitar errores de sintaxis o ejecución.
+- **Valida expresiones:** Asegúrate de que las expresiones (por ejemplo, ` \{\{ $json["email"] }} `) se resuelvan correctamente para evitar errores de sintaxis o ejecución.
 
 ---
 
