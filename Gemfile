@@ -7,7 +7,7 @@ gem 'jekyll-admin'
 gem 'rack', require: 'rack'
 gem 'rackup'
 gem 'webrick'
-gem 'sinatra', ">= 3", "< 4"
+gem 'sinatra', ">= 4.1.0"
 gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
 gem 'jekyll-minifier'
 gem "html-proofer", "~> 5.0", group: :test
