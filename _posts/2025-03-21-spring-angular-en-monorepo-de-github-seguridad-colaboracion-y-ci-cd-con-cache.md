@@ -344,3 +344,5 @@ El repositorio principal **repositorio-principal** actuará como hub central par
    - Workflows de CI con caché en el backend (Maven) y el frontend (npm) para optimizar tiempos de construcción.
 ### Validación de Versiones:
    - Un workflow en el repositorio principal asegura que las versiones del frontend y backend sean compatibles antes de crear una nueva release.
+
+---

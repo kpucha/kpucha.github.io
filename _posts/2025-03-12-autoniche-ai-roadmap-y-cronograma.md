@@ -10,7 +10,6 @@ categories:
 - Proyectos
 - AutoNiche AI
 image: "/assets/img/headers/autoniche-ai-roadmap-cronograma.png"
-pin: true
 ---
 
 La planificación del roadmap define las fases clave del desarrollo de **AutoNiche AI**, estableciendo prioridades y plazos realistas para su implementación.
