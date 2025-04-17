@@ -48,7 +48,7 @@ A diferencia de los prompts planos, MCP ofrece estructura, trazabilidad y flexib
 
 Toda la especificación es pública y está disponible en GitHub:
 
-👉 [https://github.com/lamini-ai/mcp](https://github.com/lamini-ai/mcp)
+👉 [https://github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
 
 ---
 
