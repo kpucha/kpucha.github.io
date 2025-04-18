@@ -1,17 +1,17 @@
 ---
 title: 'Algoritmos de Aprendizaje por Refuerzo: Fundamentos, Aplicaciones y Ejemplos'
-image: /assets/img/headers/algoritmos-ia-aprendizaje-por-refuerzo.png
+image: "/assets/img/headers/algoritmos-ia-aprendizaje-por-refuerzo.png"
 mermaid: true
 tags:
-  - Inteligencia Artificial
-  - Algoritmos
-  - Aprendizaje por refuerzo
-  - Q-Learning
-  - DQN
-  - Actor-Critic
+- Inteligencia Artificial
+- Algoritmos
+- Aprendizaje por refuerzo
+- Q-Learning
+- DQN
+- Actor-Critic
 categories:
-  - Inteligencia Artificial
-  - Algoritmos
+- Inteligencia Artificial
+- Algoritmos
 ---
 
 El **aprendizaje por refuerzo** es un paradigma del aprendizaje automático en el que un agente interactúa con su entorno para aprender a tomar decisiones que maximicen una recompensa acumulada. En este post, exploraremos qué son los algoritmos de aprendizaje por refuerzo, cómo funcionan, ejemplos de algoritmos y aplicaciones prácticas, acompañados de diagramas explicativos.
@@ -56,11 +56,11 @@ El **DQN** extiende el Q-Learning al utilizar redes neuronales para aproximar la
 
 ```mermaid
 graph LR
-  A[Estado (Imagen/Vector)] --> B[Red Neuronal]
-  B --> C[Estimación de Q-Valores]
-  C --> D[Selección de Acción]
-  D --> E[Ejecutar Acción y Recibir Recompensa]
-  E --> F[Actualización de la Red]
+  A["Estado (Imagen/Vector)"] --> B["Red Neuronal"]
+  B --> C["Estimación de Q-Valores"]
+  C --> D["Selección de Acción"]
+  D --> E["Ejecutar Acción y Recibir Recompensa"]
+  E --> F["Actualización de la Red"]
 ```
 
 **Explicación**:
@@ -96,12 +96,12 @@ El aprendizaje por refuerzo se ha aplicado en videojuegos, donde los agentes apr
 **Diagrama - Agente en Videojuego:**
 
 ```mermaid
-graph LR
-  A[Estado del Juego] --> B[Agente (RL)]
-  B --> C[Selección de Acción]
-  C --> D[Ejecutar Acción]
-  D --> E[Feedback y Recompensa]
-  E --> B
+ graph LR
+   A["Estado del Juego"] --> B["Agente (RL)"]
+   B --> C["Selección de Acción"]
+   C --> D["Ejecutar Acción"]
+   D --> E["Feedback y Recompensa"]
+   E --> B
 ```
 
 #### 3.2. **Robótica y Control Autónomo**
